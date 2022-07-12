@@ -3,19 +3,44 @@
   color: black;
 }
 
-.main_title {
+.h1 {
   font-weight: bold;
   font-size: 48px;
+}
+
+.h2 {
+  font-size: 28px;
+  
+  font-style: italic;
+}
+
+.center {
   text-align: center;
 }
 
-.sub_title {
-  font-size: 28px;
-  text-align: center;
-
+.main_text {
+  font-size: 18px;
 }
 
 .recipe_list {
   list-style: none;
 }
 
+.ingredients_list {
+  list-style: none;
+  line-height: 2; 
+  font-size: 16px;
+}
+
+
+.method_list {
+  list-style: none;
+  counter-reset: li;
+}
+
+.method_list>::before {
+  content: counters(li, ".") ". ";
+  color: rgb(49, 133, 115);
+  font-weight: bold;
+  counter-increment: li;
+}
