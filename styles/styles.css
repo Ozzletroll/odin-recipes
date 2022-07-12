@@ -1,0 +1,21 @@
+.title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.main_title {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+
+.sub_title {
+  font-size: 28px;
+  text-align: center;
+
+}
+
+.recipe_list {
+  list-style: none;
+}
+
